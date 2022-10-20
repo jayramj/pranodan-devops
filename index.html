@@ -89,30 +89,76 @@
                     <section>
                         <h2>Iteration : 1</h2>
                         <p> Provision Infrastructure </p>
+                        <blockquote class="bqtocallout fragment">
+                            <ul>
+                                <li>Provision All AWS Services</li>
+                                <li>Configuration to drive where & how many</li>                        
+                            </ul>
+                        </blockquote>
                     </section>
                     <section>
                         <h2>Iteration : 2</h2>
                         <p> Deploy Software Components </p>
+                        <blockquote class="bqtocallout fragment">
+                            <ul>
+                                <li>Containers</li>
+                                <li>Java Code</li>
+                                <li>Lambdas</li>
+                                <li>UI Code</li>
+                            </ul>
+                        </blockquote>
                     </section>    
                     <section>
                         <h2>Iteration : 3a</h2>
                         <p> Setup Platform Level Configurations </p>
+                        <blockquote class="bqtocallout fragment">
+                            <ul>
+                                <li>Platform Level Roles</li>
+                                <li>Platform Level Users</li>
+                                <li>Platform Level Configurations in RDS or DynamoDB</li>
+                            </ul>                        
                     </section>
-                    <section>
+                    <section fragment>
                         <h2>Iteration : 3b</h2>
                         <p> Setup Domain & Subdomain Configurations </p>
+                        <blockquote class="fragment bqtocallout" data-fragment-index="0">
+                            <ul>
+                                <li>Domain : Lending , Subdomain : HomeLoan</li>
+                                <li>Domain/Subdomain Specific Models</li>
+                                <li>Domain/Subdomain Specific Users & Roles</li>
+                                <li>Domain/Subdomain Specific Workflows</li>
+                                <li>Domain/Subdomain Specific Default Integrations</li>
+                            </ul>
+                        </blockquote>
+
+                        <p class="fragment highlight-green shrink" data-fragment-index="1">At end of this iteration "GOLDEN" tenant of this Domain/SubDomain is ready</p>
                     </section>
                     <section>
                         <h2>Iteration : 4</h2>
                         <p> Setup Tenant Specific Configurations </p>
+                        <blockquote class="fragment bqtocallout" data-fragment-index="2">
+                            <ul>
+                                <li>Enable client specific integrations</li>
+                            </ul>
+                        </blockquote>
+                        <p class="fragment highlight-green shrink" data-fragment-index="3">If we are able to automate till this stage our Demo on inception start dream is realized</p>                            
                     </section>  
                     <section>
                         <h2>Iteration : 5</h2>
                         <p> Deploy Incremental Code & Configuration Changes</p>
+                        <blockquote class="fragment bqtocallout" data-fragment-index="2">
+                            <ul>
+                                <li>Till now we mastered first time setup</li>
+                                <li>Deploy incremental infra changes</li>
+                                <li>Deploy incremental model changes</li>
+                                <li>Deploy incremental code changes</li>
+                                <li>Deploy incremental config changes</li>
+                            </ul>
                     </section>
                     <section>
                         <h2>Iteration : 6</h2>
                         <p> Promote Code & Configuration Changes across environments</p>
+                        <p class="fragment highlight-green shrink"> If we have mastered till Iteration 5, this should be just tie up loose ends</p>
                     </section>                                                                                 
                 </section>
                 <section>
